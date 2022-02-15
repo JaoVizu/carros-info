@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>iCarros</title>
+  <style>
+    #header {
+      background-color: blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 20px;
+    }
+
+    #logo{
+      font-size: 36px;
+    }
+
+    #footer {
+      background-color: blue;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <p id="logo">
+      iCarros
+    </p>
+    <ul class="menu">
+      <li>
+        <a href="#">
+          Inicio
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Carros
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <article class="cars">
+    <h1 class="cars-title">Carros <span style="color:orange">disponíveis</span></h1>
+
+    <div class="cars-container">
+      <section class="car-info">
+        <h3>Fusca</h3>
+        <div>
+          <img class="car-image" src="img/fusca.jpeg" alt="Carro Fusca">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit cumque quae modi. Voluptatibus nostrum officia, fugit molestias, quaerat qui officiis ipsa omnis commodi eveniet quos deleniti dolores earum provident pariatur?</p>
+        </div>
+      </section>
+  
+      <section class="car-info">
+        <h3>Civic</h3>
+        <div>
+          <img class="car-image" src="img/civic.jpeg" alt="Carro Civic">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, recusandae!</p>
+        </div>
+      </section>
+  
+      <section class="car-info">
+        <h3>Gol Quadrado</h3>
+        <div>
+          <img class="car-image" src="img/gol-quadrado.jpeg" alt="Carro Gol Quadrado">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, expedita dolor! Aliquam provident suscipit enim tenetur dolorem voluptate maxime ratione?</p>
+        </div>
+      </section>
+    </div>
+  </article>
+
+  <footer id="footer">
+    Desenvolvido por Joao Vizu
+  </footer>
+  
+  <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+:root {
+  --primary-font-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li > a {
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+.menu li > a:active {
+  color: var(--primary-font-color);
+}
+
+/* CONTENT */
+.cars {
+  height: 79vh;
+}
+
+.cars-title {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.cars-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.car-info {
+  max-width: 400px;
+  min-width: 200px;
+}
+
+.car-info h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.car-info div {
+  text-align: center;
+}
+
+.car-image {
+  width: 300px;
+  min-width: 200px;
+  margin-bottom: 5px;
+}
